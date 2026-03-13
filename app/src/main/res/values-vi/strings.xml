@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CarForRent</string>
+
+    <!-- Toolbar -->
+    <string name="dark_mode">Chế Độ Tối</string>
+    <string name="language_switch_label">English</string>
+
+    <!-- Home Screen -->
+    <string name="search_hint">Tìm theo tên hoặc loại…</string>
+    <string name="available_cars">Xe Có Sẵn</string>
+    <string name="credits_format">%d Tín Dụng</string>
+    <string name="credits_per_day_format">%d TD/ngày</string>
+    <string name="km_format">%,d km</string>
+    <string name="favourites_title">Yêu Thích</string>
+    <string name="no_favourites">Chưa có xe yêu thích. Nhấn giữ để thêm.</string>
+    <string name="no_cars">Không có xe nào</string>
+    <string name="rented_badge">Đã cho thuê</string>
+    <string name="filter_title">Lọc Xe</string>
+    <string name="filter_all">Tất cả xe</string>
+    <string name="filter_available">Chỉ xe có sẵn</string>
+    <string name="filter_rented">Chỉ xe đã thuê</string>
+
+    <!-- Detail Screen -->
+    <string name="car_details">Chi Tiết Xe</string>
+    <string name="model_year_format">%1$s • %2$d</string>
+    <string name="spec_km">Quãng Đường</string>
+    <string name="spec_cost">Giá/Ngày</string>
+    <string name="spec_year">Năm SX</string>
+    <string name="your_balance">Số Dư</string>
+    <string name="rent_this_car">Thuê Xe Này</string>
+
+    <!-- Rent Screen -->
+    <string name="booking">Đặt Xe</string>
+    <string name="rental_duration">Thời Gian Thuê</string>
+    <string name="days_format">%d ngày</string>
+    <string name="day_format">%d ngày</string>
+    <!-- Rental Form -->
+    <string name="your_details">Thông Tin Của Bạn</string>
+    <string name="name_hint">Họ và Tên</string>
+    <string name="phone_hint">Số Điện Thoại</string>
+    <string name="license_hint">Số Bằng Lái Xe</string>
+    <string name="email_hint">Địa chỉ Email</string>
+    <string name="cost_summary">Tóm Tắt Chi Phí</string>
+    <string name="daily_cost">Giá/Ngày</string>
+    <string name="duration">Thời Gian</string>
+    <string name="total_cost">Tổng Chi Phí</string>
+    <string name="after_booking">Sau Khi Đặt</string>
+    <string name="confirm_booking">Xác Nhận Đặt Xe</string>
+    <string name="cancel">Hủy</string>
+
+    <!-- Messages -->
+    <string name="booking_confirmed">Đặt xe thành công!</string>
+    <string name="booking_cancelled">Đã hủy đặt xe</string>
+    <string name="booking_cancelled_refund">Đã hủy đặt xe — Hoàn lại %d Tín dụng</string>
+    <string name="cancel_booking">Hủy Đặt Xe</string>
+    <string name="booking_info">Thông tin thuê xe</string>
+    <string name="booking_days_format">%1$d ngày • %2$d Tín dụng</string>
+    <string name="added_to_favourites">Đã thêm %s vào yêu thích</string>
+    <string name="removed_from_favourites">Đã xóa %s khỏi yêu thích</string>
+    <string name="error_fill_email">Vui lòng điền đầy đủ các thông tin bắt buộc</string>
+    <string name="error_invalid_name">Tên không được chứa số hoặc kí tự đặc biệt</string>
+    <string name="error_invalid_phone">Số điện thoại phải có 10 chữ số và bắt đầu bằng 0</string>
+    <string name="invalid_email">Vui lòng nhập email hợp lệ</string>
+    <string name="error_max_limit_exceeded">Chi phí thuê (%1$d) vượt quá giới hạn tối đa %2$d Tín dụng</string>
+    <string name="error_insufficient_credit">Tín dụng không đủ. Số dư của bạn là %1$d Tín dụng</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Cài đặt</string>
+
+    <!-- Sort Menu -->
+    <string name="sort_by">Sắp xếp theo</string>
+    <string name="sort_by_rating">Đánh giá (Cao → Thấp)</string>
+    <string name="sort_by_year">Năm (Mới → Cũ)</string>
+    <string name="sort_by_cost">Giá thuê (Thấp → Cao)</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_car_image">Hình ảnh xe</string>
+    <string name="cd_toggle_favourite">Yêu thích</string>
+    <string name="cd_back">Quay lại</string>
+    <string name="cd_sort">Sắp xếp</string>
+    <string name="cd_share">Chia sẻ xe</string>
+    <string name="share_car_text">Dưới đây là thông tin chi tiết về xe cho thuê từ hệ thống CarForRent:\n\n• Dòng xe: %1$s (%2$d)\n• Đánh giá: %3$.1f/5\n• Giá thuê: %4$d Tín dụng/ngày\n\nVui lòng phản hồi nếu bạn quan tâm đến lựa chọn này.</string>
+    <string name="share_copied">Đã lưu nội dung để bạn tự Dán vào Messenger</string>
+</resources>
