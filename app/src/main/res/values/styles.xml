@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Car title text (used across all activities) -->
+    <style name="CarTitleStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?colorOnSurface</item>
+    </style>
+
+    <!-- Credit/balance display text -->
+    <style name="CreditTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/credit_positive</item>
+    </style>
+
+    <!-- Secondary info text (model, km) -->
+    <style name="SecondaryInfoStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <!-- Cost highlight text -->
+    <style name="CostHighlightStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/accent</item>
+    </style>
+
+    <!-- Section title style -->
+    <style name="SectionTitleStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?colorOnSurface</item>
+    </style>
+
+    <!-- Spec chip text -->
+    <style name="SpecChipLabelStyle">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="SpecChipValueStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?colorOnSurface</item>
+    </style>
+
+</resources>
