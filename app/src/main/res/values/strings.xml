@@ -1,3 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Assignment-2-COS30017-JAN2026</string>
+    <string name="app_name">CarForRent</string>
+
+    <!-- Toolbar -->
+    <string name="settings_title">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="language_switch_label">Tiếng Việt</string>
+
+    <!-- Home Screen -->
+    <string name="search_hint">Search by name or model…</string>
+    <string name="available_cars">Available Cars</string>
+    <string name="credits_format">%d Credits</string>
+    <string name="credits_per_day_format">%d Cr/day</string>
+    <string name="km_format">%,d km</string>
+    <string name="favourites_title">Favourites</string>
+    <string name="no_favourites">No favourites yet. Long-press a car to add.</string>
+    <string name="no_cars">No cars available</string>
+    <string name="rented_badge">Rented</string>
+    <string name="filter_title">Filter Cars</string>
+    <string name="filter_all">All Cars</string>
+    <string name="filter_available">Available Only</string>
+    <string name="filter_rented">Rented Only</string>
+
+    <!-- Detail Screen -->
+    <string name="car_details">Car Details</string>
+    <string name="model_year_format">%1$s • %2$d</string>
+    <string name="spec_km">Mileage</string>
+    <string name="spec_cost">Daily Cost</string>
+    <string name="spec_year">Year</string>
+    <string name="your_balance">Your Balance</string>
+    <string name="rent_this_car">Rent This Car</string>
+
+    <!-- Rent Screen -->
+    <string name="booking">Booking</string>
+    <string name="rental_duration">Rental Duration</string>
+    <string name="days_format">%d days</string>
+    <string name="day_format">%d day</string>
+    <!-- Rental Form -->
+    <string name="your_details">Your Details</string>
+    <string name="name_hint">Full Name</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="license_hint">Driver\'s License No.</string>
+    <string name="email_hint">Email Address</string>
+    <string name="cost_summary">Cost Summary</string>
+    <string name="daily_cost">Daily Cost</string>
+    <string name="duration">Duration</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="after_booking">After Booking</string>
+    <string name="confirm_booking">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Messages -->
+    <string name="booking_confirmed">Booking confirmed!</string>
+    <string name="booking_cancelled">Booking cancelled</string>
+    <string name="booking_cancelled_refund">Booking cancelled — %d Credits refunded</string>
+    <string name="cancel_booking">Cancel Booking</string>
+    <string name="booking_info">Booking Info</string>
+    <string name="booking_days_format">%1$d days • %2$d Credits</string>
+    <string name="added_to_favourites">%s added to favourites</string>
+    <string name="removed_from_favourites">%s removed from favourites</string>
+    <string name="error_fill_email">Please fill out all required fields</string>
+    <string name="error_invalid_name">Name cannot contain numbers or special characters</string>
+    <string name="error_invalid_phone">Phone must be 10 digits and start with 0</string>
+    <string name="invalid_email">Please enter a valid email address</string>
+    <string name="error_max_limit_exceeded">Rental cost (%1$d) exceeds the %2$d Credits maximum limit</string>
+    <string name="error_insufficient_credit">Insufficient credit. Your balance is %1$d Credits</string>
+
+    <!-- Sort Menu -->
+    <string name="sort_by">Sort By</string>
+    <string name="sort_by_rating">Rating (High → Low)</string>
+    <string name="sort_by_year">Year (New → Old)</string>
+    <string name="sort_by_cost">Cost (Low → High)</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_car_image">Car image</string>
+    <string name="cd_toggle_favourite">Toggle favourite</string>
+    <string name="cd_back">Go back</string>
+    <string name="cd_sort">Sort cars</string>
+    <string name="cd_share">Share car</string>
+    <string name="share_car_text">Here are the details for the selected vehicle from CarForRent:\n\n• Vehicle: %1$s (%2$d)\n• Rating: %3$.1f/5\n• Daily Rate: %4$d Credits\n\nPlease let me know if you are interested in this option.</string>
+    <string name="share_copied">Text copied to clipboard to paste in apps like Messenger</string>
 </resources>
